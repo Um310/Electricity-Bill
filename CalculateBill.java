@@ -1,11 +1,11 @@
-package Electricity.Billing.System;
+package ElectricityBillingSystem;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
 import java.awt.event.*;
 
- class NewCustomer extends JFrame implements ActionListener{
+class NewCustomer extends JFrame implements ActionListener{
 
     JTextField tfname, tfaddress, tfstate, tfcity, tfemail, tfphone;
     JButton next, cancel;
